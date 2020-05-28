@@ -1,0 +1,23 @@
+{
+  "name": "milestone-2",
+  "version": "1.0.0",
+  "description": "<img src=\"https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png\" style=\"margin: 0;\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlieSinclair/Milestone-Project-2-UK-2016-Reff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlieSinclair/Milestone-Project-2-UK-2016-Reff/issues"
+  },
+  "homepage": "https://github.com/CharlieSinclair/Milestone-Project-2-UK-2016-Reff#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "chart.js": "^2.9.3"
+  }
+}
