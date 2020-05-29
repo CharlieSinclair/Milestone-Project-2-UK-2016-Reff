@@ -6,8 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Milestone 2 project</title>
-	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap"
-		rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap"
+		rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -17,8 +18,8 @@
 		<a href="index.html" class="header-brand">Brexit Britannia</a>
 		<nav>
 			<ul>
-				<li><a href="remain/leave.html">Remain/leave votes</a></li>
-				<li><a href="electoral.html">Electoral turnout</a></li>
+				<li><a href="remain/leave.html">Remain Vs Leave</a></li>
+				<li><a href="electoral.html">Electoral Turnout</a></li>
 				<li><a href="rejected.html">Rejected Ballots</a></li>
 			</ul>
 			<a href="dataset.html" class="header-dataset">data set</a>
@@ -27,16 +28,93 @@
 
 	<main>
 		<section class="index-banner">
-			<h2>The United Kingdom's, 2016 EU Referendum results data</h2>
-			<h1>Referendum results breakdown, showing clear information regarding the United Kingdom 2016 EU Referendum
-				results data.</h1>
+			<div class="vertical-center">
+				<h2>The United Kingdom's <br> 2016 EU Referendum results</h2>
+					<h1>Referendum results breakdown, showing clear information regarding the United Kingdom 2016 EU
+						Referendum
+						results data.</h1>
+			</div>
 		</section>
 
-		<canvas id="myChart"></canvas>
+		<section class="about-banner"></section>
 
+		<section>
+			<div class="index-charts">
+				<canvas id="myChart"></canvas>
+			</div>
+		</section>
+
+		<section class="index-links">
+			<a href="index.html">
+				<div class="index-boxlink-square">
+					<h3>Brexit Britannia</h3>
+				</div>
+			</a>
+			<a href="remain-leave.html">
+				<div class="index-boxlink-rectangle">
+					<h3>Remain/leave votes</h3>
+				</div>
+			</a>
+			<a href="electoral.html">
+				<div class="index-boxlink-square">
+					<h3>Electoral turnout</h3>
+				</div>
+			</a>
+			<a href="rejected.html">
+				<div class="index-boxlink-rectangle">
+					<h3>Rejected Ballots</h3>
+				</div>
+			</a>
+		</section>
 	</main>
 
-	<footer>
+	<footer class="footer-links-main">
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="remain-leave.html">Remain/leave votes</a>
+			</li>
+			<li>
+				<a href="electoral.html">Electoral turnout</a>
+			</li>
+			<li>
+				<a href="rejected.html">Rejected Ballots</a>
+			</li>
+		</ul>
+
+		<ul class="footer-links-info">
+			<li>Brexit information:</li>
+			<li>
+				<a href="https://www.thebrexitparty.org/">Brexit Party News - French Navy caught escorting migrants into
+					British waters</a>
+			</li>
+			<li>
+				<a
+					href="https://www.theguardian.com/politics/2020/may/29/june-brexit-summit-on-cards-talks-heading-for-deadlock">The
+					Guardian - June Brexit summit on cards as talks head for deadlock</a>
+			</li>
+			<li>
+				<a href="https://www.gov.uk/transition">GOV.UK - The transition period</a>
+			</li>
+			<li>
+				<a href="https://www.bbc.co.uk/news/uk-politics-32810887">BBC - Brexit: All you need to know about the
+					UK leaving the EU</a>
+			</li>
+		</ul>
+		<div class="footer-sm">
+			<a href="#">
+				<img src="../assets/images/youtube-vector2.png" alt="youtube icon">
+            </a>
+			<a href="#">
+				<img src="../assets/images/twitter-vector2.png" alt="twitter icon">
+            </a>
+			<a href="#">
+				<img src="../assets/images/fb-vector3.png" alt="facebook icon">
+            </a>
+		</div>
+
 
 	</footer>
 	<script src="https://d3js.org/d3.v5.min.js"></script>
