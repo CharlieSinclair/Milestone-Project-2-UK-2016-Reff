@@ -152,6 +152,11 @@ header .header-dataset {
 }
 
 @media only screen and (min-width: 1000px) {
+    header {
+    height: 100px;
+}
+
+    
     header .header-brand {
     margin: 31px 0;
     text-align: left;
@@ -169,8 +174,10 @@ header .header-dataset {
 header nav ul li a {
     line-height: 60px;
 }
+}
 
-header .header-dataset {
+@media only screen and (min-width: 1080px) {
+    header .header-dataset {
     display: block;
     font-family: Roboto, "sans-serif", "arial";
     font-size: 18px;
@@ -240,6 +247,56 @@ header .header-dataset {
     text-transform: uppercase;
 }
 
+.index-links div h4 {
+    font-family: Roboto, "sans-serif", "arial";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1000px) {
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+.index-banner {
+    height: 450px;
+} 
+
+.index-banner h1 {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.index-links {
+    overflow: hidden;
+}
+
+.index-links div {
+    margin: 20px 10px 0;
+    height: 230px;
+    background-color: #f2f2f2;
+    float: left;
+}
+
+.index-boxlink-square {
+    width: calc(25% - 20px) !important;
+}
+
+.index-boxlink-rectangle {
+    width: calc(50% - 20px) !important;
+}
+
+.index-links div h3 {
+    line-height: 230px; /*(need to find out way of only pushing rectangle text down) */
+}
+
+}
+
 /* ----------------------------------About-banner-------------------------------------*/
 
 /*------------------------------------Index-Charts-----------------------------*/
@@ -285,3 +342,23 @@ footer ul li a{
     width: 100%;
 margin-bottom: 10px;
 }
+
+@media only screen and (min-width: 1000px) {
+.footer-links-info {
+    display: block;
+}
+
+footer ul {
+    padding-right: 30px;
+}
+
+footer ul li p {
+    font-family: Roboto, "sans-serif", "arial";
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+}
+
+
